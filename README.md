@@ -1,12 +1,7 @@
-# password_validater
+# random_password
 
-The Password Strength Checker is a simple Rust program that allows users to check the strength of their passwords. Users can enter a password and the program will calculate a score based on its length, use of special characters, numbers, uppercase and lowercase letters. The program will then output a strength rating for the password.
+This program uses the rand crate to generate a random password of a specified length. It defines a generate_password function that takes a length argument and returns a randomly generated password of that length. The main function simply calls generate_password with a length of 12 and prints the result.
 
-# Getting Started
-To use the Password Strength Checker, you will need to have Rust installed on your computer. If you haven't installed Rust yet, you can download it from the official Rust website: https://www.rust-lang.org/tools/install
+# Usage
 
-Once you have Rust installed, you can download the project source code from this repository. To run the program, navigate to the project directory in the terminal and run the following command: cargo run
-
-# Reference:
-
-Chatgpt
+cargo run
